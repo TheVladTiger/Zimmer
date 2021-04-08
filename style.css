@@ -1,0 +1,344 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+header
+{
+	width: 100%;
+	height: 1000px;
+	background: url(img/background1.jpg);
+}
+.wrapper_photos
+{
+	width: 100%;
+	height: 1080px;
+	background: url(img/background2.jpg);
+}
+.wrapper_video
+{
+	width: 100%;
+	height: 1000px;
+	background: url(img/background3.jpg);
+}
+
+
+
+#logo
+{
+	width: 40%;
+	margin: auto;
+	padding: 1em 0;
+	background: rgba(0,0,0,0);
+	color: #D3D3D3;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Comfortaa', cursive;
+}
+#info
+{
+	background: linear-gradient(0.6turn, #373737, #5D5D5D, #373737);
+	margin-left: 300px;
+	margin-top: 50px;
+	width: 900px;
+	height: 600px;
+	border-radius: 20px;
+}
+#info:hover
+{
+	box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+	transition: 1s;
+	cursor: pointer;
+}
+.bio1
+{
+	font-size: 25px;
+	color: #D8D8D8;
+	padding: 40px;
+	opacity: 0.7;
+	padding-top: 60px;
+}
+.born
+{
+	font-size: 40px;
+	padding: 40px;
+	color: #D8D8D8;
+}
+.hr1
+{
+	width: 90%;
+	margin: auto;
+	height: 2px;
+	color: #D8D8D8;
+	opacity: 0.8;
+}
+
+#info2
+{
+	background: linear-gradient(0.6turn, #373737, #5D5D5D, #373737);
+	margin-right: 300px;
+	margin-top: -600px;
+	width: 900px;
+	height: 600px;
+	border-radius: 20px;
+	float: right;
+}
+#info2:hover
+{
+	box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+	transition: 1s;
+	cursor: pointer;
+}
+.bio2
+{
+	font-size: 25px;
+	color: #D8D8D8;
+	padding: 40px;
+	opacity: 0.7;
+	padding-top: 60px;
+}
+.mtv
+{
+	font-size: 50px;
+	padding: 40px;
+	color: #D8D8D8;
+}
+.hr2
+{
+	width: 90%;
+	margin: auto;
+	height: 2px;
+	color: #D8D8D8;
+	opacity: 0.8;
+}
+
+
+.gallery
+{
+	width: 40%;
+	margin: auto;
+	padding: 1em 0;
+	color: #D3D3D3;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 70px;
+	font-family: 'Comfortaa', cursive;
+}
+.gallery2
+{
+	width: 40%;
+	padding-top: -50px;
+	margin: auto;
+	color: #D3D3D3;
+	text-transform: uppercase;
+	opacity: 0.6;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Comfortaa', cursive;
+}
+.fl
+{
+	width: 200px;
+	height: 200px;
+	color: white;
+	margin: 0 auto;
+	display: inline-block;
+	margin: 38px; 
+	margin-top: 30px;
+	font-size: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	margin-right: 170px; 
+}
+.photo1
+{
+	background: url(img/photo1.jpg);	
+	width: 600px;
+	height: 338px;
+}
+.fl:hover
+{
+	box-shadow: 0 0 80px rgba(0, 0, 0, 1);
+	transition: 1s;
+	cursor: pointer;
+}
+.photo2
+{
+	width: 750px;
+	height: 485px;
+	background: url(img/photo2.jpg);
+}
+.photo3
+{
+	width: 512px;
+	height: 341px;
+	background: url(img/photo3.jpg);
+}
+.photo4
+{
+	width: 350px;
+	height: 350px;
+	background: url(img/photo5.jpg);
+	margin-top: -150px;
+	margin-left: 100px;
+	position: relative;
+}
+.photo6
+{
+	width: 540px;
+	height: 400px;
+	background: url(img/photo6.jpg);
+	margin-left: 1300px;
+	margin-top: -130px;
+	position: absolute;
+}
+
+.video_txt
+{
+	width: 40%;
+	margin: auto;
+	padding: 1em 0;
+	background: rgba(0,0,0,0);
+	color: #D3D3D3;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Comfortaa', cursive;
+}
+.yt
+{
+	margin-left: 900px;
+	margin-top: 50px;
+}
+
+
+footer
+{
+	width: 100%;
+	height: 120px;
+	background: #222222;
+}
+.footer
+{
+	width: 350px;
+	height: 120px;
+	display: flex;
+  	flex-direction: row;
+  	flex-wrap: wrap;
+  	font-size: 20px;
+  	float: center;
+    margin-left: auto;
+    margin-right: auto
+
+}
+.fl4
+{
+	color: white;
+	opacity: 0.6;
+	margin-top: 30px;
+}
+.fa-spotify
+{
+	color: #18AE23;
+	margin-left: 100px;
+	opacity: 1;
+	margin-top: 30px;
+}
+.foot
+{
+	width: 1px;
+	height: 20px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.foot_txt
+{
+	text-align: center;
+	color: white;
+	opacity: 0.6;
+	font-size: 15px;
+	margin-top: -10px;
+	margin-left: 30px;
+}
+.spotify
+{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 400px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 600px)
+{
+header
+{
+	width: 1000px;
+	height: 1800px;
+	background: url(img/background1.jpg);
+}
+.wrapper_photos
+{
+	width: 1000px;
+	height: 2700px;
+	background: url(img/background2.jpg);
+}
+.wrapper_video
+{
+	width: 1000px;
+	height: 1080px;
+	background: url(img/background3.jpg);
+}
+footer
+{
+	width: 1000px;
+	height: 120px;
+}
+#info
+{
+	margin-left: 30px;
+	margin-top: 10px;
+	width: 800px;
+	height: 650px;
+}
+#info2
+{
+	margin-right: 100px;
+	margin-top: 50px;
+	width: 800px;
+	height: 650px;
+}
+.photo6
+{
+	margin-left: -500px;
+	margin-top: 400px;
+}
+.spotify
+{
+	margin-top: 20px;
+	margin-left: 300px;
+}
+.video_txt
+{
+	width: 80%;
+}
+.yt
+{
+	margin-left: 150px;
+	margin-top: 450px;
+	width: 600px;
+	height: 300px;
+}
+
+}
